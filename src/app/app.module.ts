@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
-import { newAppComponent } from './app.component';
+import { BeachModelComponent } from './beach-model/beach-model.component';
+import { GardenModelComponent } from './garden-model/garden-model.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    newAppComponent
+    BeachModelComponent,
+    GardenModelComponent
   ],
   imports: [
     BrowserModule
